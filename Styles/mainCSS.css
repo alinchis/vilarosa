@@ -885,10 +885,34 @@ p, p.p1 {
 }
 
 p.p1_hotel {
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 90%;
-	line-height:250%;
-	margin-top: 10px;
+	line-height:120%;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+p.p1_hotel span, p.p1_special span {
+	font-weight: normal;
+	font-size: 80%;
+}
+
+p.p1_special {
+	font-weight: bold;
+	font-size: 90%;
+	line-height:120%;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+p.p1_special_date {
+	font-weight: 400;
+	font-size: 80%;
+	line-height:100%;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: left;
+	text-indent: 0;
 }
 
 p.filler {
